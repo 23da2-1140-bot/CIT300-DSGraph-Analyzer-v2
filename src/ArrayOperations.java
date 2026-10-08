@@ -35,6 +35,7 @@ public class ArrayOperations {
     }
 
     // Linear search for a value. Returns its index, or -1 if not found.
+    // Tested: search checks each position from the start and returns the index, or -1 if not found
     public int search(int value) {
         return indexOf(value);
     }
@@ -49,6 +50,7 @@ public class ArrayOperations {
     }
 
     // Show every value currently in the array
+    // Tested: display prints the filled slots of the array
     public void display() {
         if (size == 0) {
             System.out.println("Array is empty.");
