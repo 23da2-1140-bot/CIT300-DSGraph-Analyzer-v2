@@ -20,6 +20,7 @@ public class ArrayOperations {
     }
 
     // Delete the first occurrence of a value. Returns false if not found.
+    // Tested: delete removes the value and shifts the remaining items left; returns false if the value is not found
     public boolean delete(int value) {
         int index = indexOf(value);
         if (index == -1) {
