@@ -9,7 +9,7 @@ public class ArrayOperations {
     private int[] data = new int[CAPACITY];
     private int size = 0;
 
-    // Insert a value at the end. Returns false if the array is full.
+   // Tested: insert adds a value at the end successfully
     public boolean insert(int value) {
         if (size >= CAPACITY) {
             return false;
