@@ -34,6 +34,7 @@ public class SearchOperations {
 
     // Binary search: the array MUST be sorted first.
     // Repeatedly checks the middle of the remaining range and halves the search space.
+    // Tested: binary search needs a sorted array; it halves the search range each step, so time complexity is O(log n)
     public static SearchResult binarySearch(int[] sortedValues, int target) {
         int steps = 0;
         int low = 0;
