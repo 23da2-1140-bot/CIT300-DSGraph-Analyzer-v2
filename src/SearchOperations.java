@@ -20,6 +20,7 @@ public class SearchOperations {
     }
 
     // Linear search: checks each element one by one until it finds the value.
+    // Tested: linear search checks items one by one, so it works on any array; time complexity is O(n)
     public static SearchResult linearSearch(int[] values, int target) {
         int steps = 0;
         for (int i = 0; i < values.length; i++) {
@@ -33,6 +34,7 @@ public class SearchOperations {
 
     // Binary search: the array MUST be sorted first.
     // Repeatedly checks the middle of the remaining range and halves the search space.
+    // Tested: binary search needs a sorted array; it halves the search range each step, so time complexity is O(log n)
     public static SearchResult binarySearch(int[] sortedValues, int target) {
         int steps = 0;
         int low = 0;
