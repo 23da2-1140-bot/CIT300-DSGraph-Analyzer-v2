@@ -3,8 +3,7 @@
  * MEMBER 3: Linked List component.
  * A singly linked list of integers.
  *
- * Done so far: nodes, insert at the end, display, and delete the first match.
- * Search stays as a placeholder so the menu still compiles.
+ * Insert at the end, delete the first match, search, and display.
  */
 public class MyLinkedList {
 
@@ -57,8 +56,18 @@ public class MyLinkedList {
         return false;
     }
 
-    // Search comes in the next commit.
+    // Search for the first occurrence. Returns its position, or -1 if not found.
+    // Position 0 is the first node, same as an array index.
     public int search(int value) {
+        Node current = head;
+        int position = 0;
+        while (current != null) {
+            if (current.value == value) {
+                return position;
+            }
+            current = current.next;
+            position++;
+        }
         return -1;
     }
 
