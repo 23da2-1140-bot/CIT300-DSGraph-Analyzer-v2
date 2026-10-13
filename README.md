@@ -1,6 +1,7 @@
 # Data Structure and Graph Performance Analyzer
 
 CIT300 Data Structures and Algorithms - Graded Practical Assignment 2
+GROUP NO:46
 
 A Java console application demonstrating arrays, stacks, queues, linked lists,
 searching algorithms, and graph traversal, with a performance comparison
@@ -10,10 +11,10 @@ feature.
 
 | Name | Student ID | Responsibility | Individual Contribution |
 |------|-----------|----------------|-------------------------|
-| (Member 1 name) | (ID) | Array and Searching | (write what you did) |
-| (Member 2 name) | (ID) | Stack and Queue | (write what you did) |
-| (Member 3 name) | (ID) | Linked List | (write what you did) |
-| (Member 4 name) | (ID) | Graph and traversal | (write what you did) |
+| ANF.Ifatha | 23DA2-1140| Array and Searching | Implemented Array Operations (insert, delete, search, display) and Searching Operations (linear and binary search with step counting); merged all branches and handled final integration and testing |
+| MMF.Mahdhiyya | 23DA2-1153 | Stack and Queue | Implemented Stack (push, pop, peek, display) and Queue (enqueue, dequeue, peek, display) with empty-structure error handling |
+| MJF.Hana | 23DA2-1134 | Linked List | Implemented Linked List operations (insert, delete, search, display) using node-pointer logic |
+| MAF.Farhath | 23DA2-0710 | Graph and traversal | Implemented Graph operations (add vertex, add edge, display) and BFS/DFS traversal with step counting |
 
 All members worked together on: Performance Comparison, main menu, integration, testing, documentation.
 
@@ -53,4 +54,4 @@ All members worked together on: Performance Comparison, main menu, integration, 
 
 ## Demo Video
 
-(Add the link here)
+https://drive.google.com/file/d/1fyBpuIiGoTTdADzRuky6oJwyJvAkoG6F/view?usp=sharing
